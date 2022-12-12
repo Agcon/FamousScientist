@@ -1,0 +1,12 @@
+section img{
+    float: left;
+    padding: 5px;
+}
+
+h2{
+    margin-left: 15px;
+}
+
+section img:hover{
+    transform: scale(1.02);
+}   
