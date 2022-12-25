@@ -141,28 +141,28 @@ const results =
 //Массив с вопросами
 const questions = 
 [
-	new Question("В каком году родился Ломоносов?", 
+	new Question("В каком году родился Циолковский?", 
 	[
-		new Answer("1900", 0),
+		new Answer("1901", 0),
 		new Answer("1801", 0),
-		new Answer("1711", 1),
-		new Answer("1684", 0)
+		new Answer("1857", 1),
+		new Answer("1884", 0)
 	]),
 
-	new Question("В каком году Ломоносов сбежал из дома?", 
+	new Question("Где родился Циолковский?", 
 	[
-		new Answer("1729", 0),
-		new Answer("1715", 0),
-		new Answer("1730", 1),
-		new Answer("1740", 0)
+		new Answer("В Москве", 0),
+		new Answer("В Смоленской губернии", 0),
+		new Answer("В Рязанской губернии", 1),
+		new Answer("В Перограде", 0)
 	]),
 
-	new Question("В какую академию поступил Ломоносов, после того, как сбежал?", 
+	new Question("Куда поступил Циолковский?", 
 	[
 		new Answer("МГУ", 0),
-		new Answer("Славяно-греко-латинскую", 1),
-		new Answer("Киево-Могилянскую", 0),
-		new Answer("наук в Петербурге", 0)
+		new Answer("МГТУ им.Баумана", 1),
+		new Answer("МФТИ", 0),
+		new Answer("МИФИ", 0)
 	]),
 
 	new Question("В каких науках Ломоносов работал?", 
